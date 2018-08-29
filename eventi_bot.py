@@ -8,7 +8,7 @@ TOKEN = "637115124:AAHbAtbnTwEO10RutD0PmKSR8_tbz17i2R4"
 
 
 def handle_start(bot, update):
-    update.message.reply_text("Dimmi il nome di un luogo e troverò gli eventi nelle vicinanze per te")
+    update.message.reply_text("Ciao, dimmi il nome di un luogo e troverò gli eventi nelle vicinanze per te")
 
 
 def error(bot, update, e):
