@@ -52,7 +52,7 @@ class Parser():
 
     def parse_date(self, date_str):
         if "al" in date_str:
-            words = date_str.replace(",","").replace("-","").replace("l'", "l ").split("al")
+            words = date_str.replace(",","").replace("-","").replace("ll'", "l ").split("al")
             return "{} - {}".format(words[1].strip(), " ".join(words[2].strip().split(" ")[:3]))
         else:
             return " ".join(date_str.split(" ")[1:])
